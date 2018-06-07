@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = 'BioLua'
-version = '0.1-1'
+version = '0.15-1'
 -- LuaDist source
 source = {
-  tag = "0.1-1",
+  tag = "0.15-1",
   url = "git://github.com/LuaDist-testing/biolua.git"
 }
 -- Original source
 -- source = {
 -- 	url = 'git://github.com/SweetPalma/BioLua.git',
--- 	tag = 'v0.1',
+-- 	tag = 'v0.15',
 -- }
 description = {
 	summary = 'Computational biology for Lua.',
@@ -24,7 +24,7 @@ description = {
 }
 
 dependencies = {
-	'lua >= 5.2'
+	'lua >= 5.1'
 }
 build = {
 	type = 'builtin',
